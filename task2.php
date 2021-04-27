@@ -16,7 +16,7 @@ if(isset($_POST['submit']))
     $ge = $_POST['Guardian_email'];
     $si = $_POST['student_id'];
     $query22 = "INSERT INTO student_records (student_ssid,medical_provider,Guardian_email) VALUES ('$ssid','$mp','$ge') ";
-    $query23 = "INSERT INTO student(bank_provider,guardian_ssid,guardian_phone,student_id) VALUE ('$bp','$gssid','$gp','$si')";
+    $query23 = "INSERT INTO student(bank_provider,guardian_ssid,guardian_phone,student_id) VALUES ('$bp','$gssid','$gp','$si')";
 
     if(mysqli_query($conn, $query22) && (mysqli_query($conn, $query23))){
         echo "parent records data stored"; 
