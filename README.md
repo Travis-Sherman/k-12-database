@@ -226,21 +226,21 @@ Implementation:
 
 Testing instructions:
 
-INSERT INTO `homeroom` (`grade_level`, `student_count`, `room_number`, `teacher_name`) VALUES ('12', '3', ‘a’, 'Alfred Watkins'), ('12', ‘2', ‘b’, 'Chung Ng');
+Use k-12 database sql file to create database;
 
-INSERT INTO `homeroom` (`grade_level`, `student_count`, `room_number`, `teacher_name`) VALUES ('6', '3', ‘a’, 'Ben Smith'), ('6', ‘2', ‘b’, 'Knedrick Perkins');
-
-INSERT INTO `homeroom` (`grade_level`, `student_count`, `room_number`, `teacher_name`) VALUES ('4', '3', ‘a’, 'Adam Sandler'), ('4', ‘2', ‘b’, 'Bill Gates');
-
+INSERT INTO `homeroom` (`grade_level`, `student_count`, `room_number`, `teacher_name`) VALUES (12, '3', 'a', 'Alfred Watkins'), (12, '2', 'b', 'Chung Ng'), (6, '3', 'a', 'Ben Smith'), (6, '2', 'b', 'Kendrick Perkins'), (4, '3', 'a', 'Adam Sandler'), (4, '2', 'b', 'Bill Gates')
 
 
 INSERT INTO `class` (`lunch_time`, `recess_time`, `school_end`, `school_start`) VALUES ('11:00:00', '12:00:00', '12:00:00', '7:00:00'), ('12:00:00', '13:00:00', '15:00:00', '08:00:00'), ('13:00:00', '14:00:00', '16:00:00', '09:00:00')
 
 In order to run the first task, once you're connected to the server, you will run the given php file for task one and it will display the related inquiry questions.
 Run the php file containing Insert mysql queries. Open the html browser and feel free to populate the database with parent info ! Or refer to the dummy variables to pre populate the database.
+
 Run PHP files containing task 3 with mysql queries. Once you run the code, you must open the html browser and answer the student ID inquiry. Once the prompted tap is submitted, the php code will check to see if that Student Id has a bank provider. If there is a bank provider found, then the html page should display reservation for student enrollment is successful.
+
 Run the php file containing Insert mysql queries. Open the html browser and feel free to populate the database with student info this time! Or refer to the dummy variables to pre-populate the database with student info.
 Run the php to populate the homeroom database. Use the mysql insert queries to put in the data. The html table will allow you to input your grade level and store it in the homeroom database.
+
 Run the php code to run my sql queries to insert student id from html browser. And then run select sql statement to return class attributes like school start and end time and recess and lunch time.
 
 
