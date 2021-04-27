@@ -14,8 +14,7 @@
     $tuitionPrice = 250000;
     echo "The price to attend the private school is "
     . $tuitionPrice . "<br>";
-
-    //$row = mysqli_fetch_all(($result), MYSQLI_BOTH); print_r($row);
+    echo "<br>";
    
     while($row = mysqli_fetch_array($result, MYSQLI_BOTH))
     {
@@ -75,5 +74,4 @@
     mysqli_close($connect);
 
 ?>
-
 
